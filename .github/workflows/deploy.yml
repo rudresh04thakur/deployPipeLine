@@ -35,7 +35,7 @@ jobs:
           npm i  
           npm run build:ci  
       - name: Push Build to Releases  
-        uses: ncipollo/release-action@v1  
+        uses: rudresh04thakur/release-action@v1  
         with:  
           artifacts: "dist/gopalthakur/*"  
           token: ${{ secrets.DEPLOY_PIPE }}  
